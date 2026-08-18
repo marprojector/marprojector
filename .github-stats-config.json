@@ -1,0 +1,26 @@
+{
+  "sourceType": "user",
+  "target": "marprojector",
+  "theme": "tokyonight",
+  "headerStyle": "mac",
+  "hostname": "marmdhn",
+  "typingSpeed": 70,
+  "commands": [
+    "whoami",
+    "neofetch",
+    "stack --frontend",
+    "stack --backend",
+    "stack --database",
+    "stack --auth",
+    "languages",
+    "top-repos",
+    "uptime",
+    "exit"
+  ],
+  "customCommands": {
+    "stack --frontend": "Next.js • React • TypeScript • Tailwind CSS",
+    "stack --backend": "Node.js • tRPC",
+    "stack --database": "PostgreSQL • MySQL • Drizzle ORM",
+    "stack --auth": "Better Auth"
+  }
+}
